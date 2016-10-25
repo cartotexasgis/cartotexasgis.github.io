@@ -36,8 +36,8 @@ google.maps.event.addDomListener(window, 'load', init);
 function init() {
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-    theLat = 40.750305;
-    theLng = -73.967497;
+    theLat =  30.3872018 // 40.750305;,
+    theLng =  -97.726696 // -73.967497;
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
         zoom: 18,

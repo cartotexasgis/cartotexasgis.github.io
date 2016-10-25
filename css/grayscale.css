@@ -147,7 +147,8 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-gps.jpg) no-repeat bottom center scroll; /*http://www.esa.int/var/esa/storage/images/esa_multimedia/images/2011/10/galileo_in-orbit_validation_satellite2/9765288-3-eng-GB/Galileo_In-Orbit_Validation_satellite.jpg*/
+    /*background: url(../img/intro-gps.jpg) no-repeat bottom center scroll;*/ /*http://www.esa.int/var/esa/storage/images/esa_multimedia/images/2011/10/galileo_in-orbit_validation_satellite2/9765288-3-eng-GB/Galileo_In-Orbit_Validation_satellite.jpg*/
+    background: url(../img/logo_CARTO_positive_180.png) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;

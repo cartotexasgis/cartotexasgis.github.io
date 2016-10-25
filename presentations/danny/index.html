@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>GPS in Research in the Urban Environment</title>
+		<title>Creating Accessible Location Intelligence</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
@@ -22,129 +22,189 @@
 		</script>
 	</head>
 	<body>
-		<div class="reveal">
-			<div class="slides">
+		<div class="reveal" border="none">
+			<div class="slides" border="none">
 				
 
-				<section>
-					<h3>Open Camps: Maps Camp:</h3><h1>GPS</br></h1><h2> in Research </br></h2><h3>in the Urban Environment</h3>
-					
-					<p>
-					
-					</p>
-				</section>
+<section>
+	<h3>Texas GIS Forum</h3><a href="https://carto.com"><img class="plain" src='img/logo_CARTO_negative_180.png' border='none' height='200px'></a></br><h2>Creating Accessible Location Intelligence</h2>
+</section>
 
-				<!-- EMILIE's INTRO SECTION -->
+<section data-background="#dddddd"> 
+	<p>This talk was initially schedule to have Santaigo from CARTO. My name is Danny Sheehan and I'm filling in. Find out more about me here: <a href="http://nygeog.github.io" target='_blank'>nygeog.com</a>, talk to me today or tomorrow or troll me on Twitter at  <a href="http://twitter.com/nygeog" target='_blank'>@nygeog</a></p>
+</section>
 
-				<section data-background="#dddddd"> 
-					<p>Use of global positioning system (GPS) technology has become a standard method of data collection in epidemiology and public health studies.</p>
-				</section>
+<section data-background="#dddddd"> 
+	<p>I've worked at a few GIS positions, at <a href="http://aecom.com" target='_blank'>AECOM</a> and was at <a href="https://www.mailman.columbia.edu/become-student/departments/epidemiology" target='_blank'>Columbia University's Dept. of Epidemiology</a> for 6.5 years and recently completed a <a href="http://datascience.columbia.edu/" target='_blank'>Data Science program at Columbia's Fu School for Engineering</a>. Got a Geography Master's from <a href="https://www.buffalo.edu/cas/geography.html" target='_blank'>Univ. Buffalo</a> and I've used a variety of desktop platforms and web apps.</p>
+</section>
 
-				<section> 
-					<p>However, in dense urban environments, GPS measurements are highly prone to error as signals bounce off large buildings and other structures.</p>
-				</section>
+<section> 
+	<h1>#GISNERD</h1>
+</section>
 
-				<section> 
-					<p>Formally defined as multipath error, these reflections increase the distance that the GPS signal must travel to reach the receiver—causing miscalculations in position.</p>
-				</section>
+<section> 
+	<h2>GIS is hard.</h2>
+</section>
 
-				<section> 
-					<p>Multipath problems can result in locations that seemingly wander or jump as the signal is dropped and regained.</p>
-				</section>
+<section> 
+	<p>Data formats, data collection, operating systems, software updates, projection systems, .e00 files, tiger files!!! geoprocessing methods!!!! projections systems, javascript!!!!!!, python!, gdal/ogr!!! lattice dem!!!! geoJSON! topoJSON!!!</p>
+</section>
 
-				<section> 
-					<h2>Multipath Error</h2>
-					<img data-src="img/errordiagram.jpg" alt="error diagram">
-				</section>
+<section> 
+	<sm>AAAAHHHHHH!!!!</sm>
+</section>
 
-				<section> 
-					<p>Although the error associated with these split second delays may seem negligible, the multipath phenomena can substantially impact positional accuracy and tracking measurements.</p>
-				</section>
+<section> 
+	<h2>What if GIS could be easier???</h2>
+</section>
 
-				<section>
-					<h2><a href="https://beh.columbia.edu/">Built Environment and Health</a></h2> 
-					<h3>Research Group at Columbia Univ.</h2>
-				</section>
+<section> 
+	<p>At CARTO we're working towards...</p>
+</section>
 
-				<section>
-					<p>Disclaimer: Student and volunteer data, no students were harmed during these experiments!</p>
-				</section>
+<section data-background="#dddddd"> 
+	<h2>...Intuative Location Intelligence</h2>
+</section>
 
-				<section>
-					<iframe width="100%" height="600" frameborder="0" src="https://cartodbacademy.cartodb.com/viz/26250460-05d8-11e4-9e73-0e73339ffa50/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-				</section>
+<section> 
+	<p>We've had some really great success with the CartoDB Editor and the CartoDB Platform.</p>
+</section>
 
-				<section>
-					<iframe width="100%" height="600" frameborder="0" src="https://cartodbacademy.cartodb.com/viz/26250460-05d8-11e4-9e73-0e73339ffa50/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-				</section>
+<section> 
+	<img class="plain" src='img/cartodb_editor.png' border='none' width='100%'>
+</section>
 
-				<section> 
-					<iframe src='https://cartodbacademy.carto.com/viz/20dde5ba-f18f-11e3-a6bc-0e73339ffa50/embed_map' height="650" width="100%"></iframe>
-				</section>
-
-				<section> 
-					<img data-src="img/dist_bldg_hght_ani.gif" alt="gps_start" height="650">
-				</section>
-
-				<section> 
-					<img data-src="img/dg100.jpg" alt="gps_start" height="650">
-				</section>
-
-				<section> 
-					<img data-src="img/bldg1.png" alt="gps_start" height="650">
-				</section>
-
-				<section> 
-					<img data-src="img/bldg2.png" alt="gps_start" height="650">
-				</section>
-
-				<section> 
-					<img data-src="img/cartodb_screenshot.png" alt="gps_start" height="650">
-				</section>
-
-				<!-- gps_brazil.png
-				(http://www.aboutcivil.org/imajes/multipath-effects-GPS.jpg)
-				![3d_buildings](http://stat4701-edav-gps.github.io/presentation/img/dist_bldg_hght_ani.gif)
-				*Modeling Distributed Building Height viewed from a few locations in New York City using ArcScene*
-				<iframe width="100%" height="520" frameborder="0" src="https://dms2203.cartodb.com/viz/ac88b602-ed20-11e4-aad3-0e018d66dc29/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-				brasil_gov_rdp_aerial.png 
-				gps_paper_screenshot.png -->
-				
-				<section> 
-					<img data-src="img/midtown_20130101.png" alt="gps_start" height="650">
-				</section>	
-
-				<section> 
-					<img data-src="img/mccarren_pk.png" alt="gps_start" height="650">
-				</section>					
-
-				<section> 
-					<img data-src="img/gps_start.png" alt="gps_start" height="650">
-				</section>
-
-				
-				
+<section> 
+	<img class="plain" src='img/cartodbeditor_philly.png' border='none' width='100%'>
+</section>
 
 
-				<section> 
-					<!-- <p>GPS Start</p> -->
-					<img data-src="img/gps_map_v02.png" alt="gps_walks" height="650">
-				</section>
+<!-- TURN THESE ON  -->
+<section>
+	<iframe width="100%" height="600" frameborder="0" src="https://cartodbacademy.cartodb.com/viz/26250460-05d8-11e4-9e73-0e73339ffa50/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p><a href="https://cartodbacademy.cartodb.com/viz/26250460-05d8-11e4-9e73-0e73339ffa50/embed_map" target='_blank'>Full Map</a></p>
+</section>
 
-				<section data-background="#dddddd"> 
-					
-					<img data-src="img/legend_converted.png" alt="gps_walks" height="650">
-				</section>
+<section> 
+	<iframe src='https://cartodbacademy.carto.com/viz/20dde5ba-f18f-11e3-a6bc-0e73339ffa50/embed_map' height="600" width="100%"></iframe><p><a href="https://cartodbacademy.carto.com/viz/20dde5ba-f18f-11e3-a6bc-0e73339ffa50/embed_map" target='_blank'>Full Map</a></p>
+</section>
 
-				<section> 
-					
-					<img data-src="img/all_20_walks.png" alt="gps_walks" height="650">
-				</section>
+<section> 
+	<img class="plain" src='img/carto_worldwide.png' border='none' width='100%'>
+</section>
 
-				<section>
-					Slide 2 - http://stat4701-edav-gps.github.io/presentation
-				</section>
-			</div>
+<section> 
+	<p>But now we're super stoked to announce the CARTO <strong>BUILDER</strong> and the CARTO <strong>ENGINE</strong></p>
+</section>
+
+<section>
+	<iframe src="http://carto.com/builder" style="border:none;" width='100%' height='600px'></iframe>
+</section>
+
+<section>
+	<iframe src="http://carto.com/engine" style="border:none;" width='100%' height='600px'></iframe>
+</section>
+
+<section> 
+	<img class="plain" src='img/values.png' border='none' width='100%'>
+</section>
+
+<section> 
+	<img class="plain" src='img/builder.png' border='none' width='100%'>
+</section>
+
+<section> 
+	<img class="plain" src='img/engine.png' border='none' width='100%'>
+</section>
+
+<section> 
+	<img class="plain" src='img/lds.png' border='none' width='100%'>
+</section>
+
+<section> 
+	<img class="plain" src='img/do.png' border='none' width='100%'>
+</section>
+
+<section> 
+	<img class="plain" src='img/mobile.png' border='none' width='100%'>
+</section>
+
+<section data-background="#dddddd"> 
+	<h1>Let's check out some maps!!!</h1>
+</section>
+
+<section> 
+	<p>Some of our remote employees in the US work at <a href="https://wework.com" target='_blank'>WeWork</a>. So we decided to take a look at their locations and enrich the locations with Data Observatory data. Here's a <a href="https://gist.github.com/nygeog/d2a3098a9655645a104e3c2434402288" target='_blank'>Python GIST to get WeWork locations from their website.</a></p>
+</section>
+
+
+<!-- TURN ON AFTER PLANERIDE -->
+
+<section>
+	<iframe width="100%" height="600" frameborder="0" src="https://team.carto.com/u/sheehan-carto/builder/30233d8a-9661-11e6-9889-0e3ff518bd15/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p><a href="https://team.carto.com/u/sheehan-carto/builder/30233d8a-9661-11e6-9889-0e3ff518bd15/embed" target='_blank'>Full Map</a></p>
+</section>
+
+
+<section data-background="#dddddd"> 
+	<p>How did we create that enrich that location data?</p>
+</section>
+
+<section> 
+	<img class="plain" src='img/gif-pop-do.gif' border='none' height='100%'>
+</section>
+
+<section> 
+	<img class="plain" src='img/1-totpop-col.png' border='none' height='100%'>
+</section>
+
+<section> 
+	<img class="plain" src='img/2-style.png' border='none' height='100%'>
+</section>
+
+<section> 
+	<img class="plain" src='img/3-result.png' border='none' height='100%'>
+</section>
+
+<section data-background="#dddddd"> 
+	<p>How did we add those Widgets?</p>
+</section>
+
+<section> 
+	<img class="plain" src='img/widget-gif.gif' border='none' width='100%'>
+</section>
+
+<section data-background="#dddddd"> 
+	<p>Some other maps... Pizza Month???</p>
+</section>
+
+<section> 
+	<p>Baseline Foursquare Check-Ins at NYC Pizzerias on October 1st</p>
+</section>
+
+<section>
+	<iframe width="100%" height="600" frameborder="0" src="https://team.carto.com/u/sheehan-carto/builder/4c35663f-48ec-4ebe-9090-83923ed568d9/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p><a href="https://team.carto.com/u/sheehan-carto/builder/4c35663f-48ec-4ebe-9090-83923ed568d9/embed" target='_blank'>Full Map</a></p>
+</section>
+
+<section data-background="#dddddd"> 
+	<p>Now using the Engine and our API's we can also sync data with ease. I'm scraping Foursquare approximately every hour and the data is updating in the map.</p>
+</section>
+
+<section> 
+	<p>Percent change in Check-Ins</p>
+</section>
+
+<section>
+	<iframe width="100%" height="600" frameborder="0" src="https://team.carto.com/u/sheehan-carto/builder/4e60f096-ec69-432f-9ea8-b305d921990b/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p><a href="https://team.carto.com/u/sheehan-carto/builder/4e60f096-ec69-432f-9ea8-b305d921990b/embed" target='_blank'>Full Map</a></p>
+</section>
+
+<section> 
+	<p>Mmmmm Pizza...</p>
+</section>
+
+<section> 
+	<p>Questions?</p>
+</section>
+
+		</div>
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
